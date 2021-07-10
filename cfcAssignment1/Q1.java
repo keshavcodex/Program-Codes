@@ -2,7 +2,7 @@ package cfcAssignment1;
 
 import java.util.Scanner;
 
-public class question1 {
+public class Q1 {
     public static void campusLeader(int credits){
         if (7500 <= credits) {
             System.out.println("Tera Leader");

@@ -68,12 +68,22 @@ public class Q7_patterns {
             nst+=2;
         }
     }
+        static int forCombination(int n ,int r){
+            int i = 1; int C = 1;
+            while(i<=r){
+                C = C*(n-i+1)/i;
+                i++;
+            }
+            return C;
+        }
     public static void pattern7e(int n){
-        int id=1, nst=1;
+        int id=1, nst=1, ans;
+        System.out.println("1");
         while (id <= n) {
-            int cst = 1;
+            int cst = 0;
             while (cst <= nst) {
-                System.out.print(cst);
+                ans = forCombination(nst,cst);
+                System.out.print(ans+" ");
                 cst++;
             }
             System.out.println();
@@ -107,15 +117,15 @@ public class Q7_patterns {
         }
     }
     public static void pattern7g(int n){
-        int id=1, nst=1, nsp=n;
-        while (id <= 2*n-1) {
-            int cst=1;
+        int id=1, nst=1, nsp=2*n-3;
+        while (id <= 2 * n - 1) {
+            int cst = 1;
             while (cst <= nst) {
                 System.out.print("*");
                 cst++;
             }
             cst--;
-            int csp=1;
+            int csp = 1;
             while (csp < nsp) {
                 System.out.print(" ");
                 csp++;
@@ -126,12 +136,12 @@ public class Q7_patterns {
             }
             System.out.println();
             id++;
-            if (id <= n) {
+            if (id < n) {
                 nst++;
-                nsp-=2;
-            }else{
+                nsp -= 2;
+            } else {
                 nst--;
-                nsp+=2;
+                nsp += 2;
             }
         }
     }
@@ -204,6 +214,7 @@ public class Q7_patterns {
             }
         }
     }
+
     public static void allPattern(int n){
         pattern7a(n);
         pattern7b(n);
@@ -220,7 +231,6 @@ public class Q7_patterns {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
         allPattern(n);
-//        7e, 7g are wrong
 
     }
 }

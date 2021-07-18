@@ -7,19 +7,22 @@ public class Q12 {
         int temp = arr[n1];
         arr[n1] = arr[n2];
         arr[n2] = temp;
-        System.out.println("i: "+n1+", a: "+n2);
     }
-    static boolean isEven(int a){
-        if((a & 1) == 0){
+    static boolean isOdd(int a){
+        if((a & 1) == 1){
             return true;
         }
         return false;
     }
     public static void sortOddEven(int[] arr){
-        int evenCount=0;
-        for (int i = 0; i < arr.length ; i++) {
-            if (isEven(arr[i])) {
-                evenCount++;
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (isOdd(arr[i])) {
+                for (int j = i + 1; j < arr.length; j++) {
+                    if(!isOdd(arr[j])){
+                        swap(arr, i, j);
+                        break;
+                    }
+                }
             }
         }
 
@@ -29,7 +32,5 @@ public class Q12 {
         System.out.println(Arrays.toString(arr));
         sortOddEven(arr);
         System.out.println(Arrays.toString(arr));
-        //Wrong answer
-        //Wrong answer
     }
 }

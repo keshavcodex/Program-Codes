@@ -30,7 +30,6 @@ public class Q14 {
                     b = target - a;
                     if (b == arr[j]) {
                         System.out.printf("(%d,%d) ", a, b);
-                        arr[j]=target;
                     }
                 }
             }

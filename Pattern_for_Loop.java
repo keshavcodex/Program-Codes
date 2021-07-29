@@ -1,6 +1,6 @@
 package practices;
 
-public class Pattern_forLoop {
+public class Pattern_for_Loop {
     public static void pattern1(int n){
         int nst=1;
         for(int id=1; id<=n ; id++){

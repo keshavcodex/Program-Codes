@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7160338e-8efe-408d-bc59-3c04cc1b36d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CFC_classWork/Linkedlist/LinkedlistImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CFC_classWork/Linkedlist/Reverse_Linkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionFramework/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program-Codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFC_classWork/linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/CFC_classWork/Linkedlist/linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pattern_for_Loop.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wDO5R8A3cwCvOMgBfzEhVrop6Y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jdk-16.0.2_windows-x64_bin.zip" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Application.MyLinkedList">
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.CollectionFramework.MyLinkedList" />
+      <module name="Program-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.CollectionFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_Vertical_Wave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cfcAssignment3.Q1_Vertical_Wave" />
+      <module name="Program-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cfcAssignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q5_numOfDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cfcAssignment1.Q5_numOfDigit" />
+      <module name="Program-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cfcAssignment1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reverse_Linkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.CFC_classWork.Linkedlist.Reverse_Linkedlist" />
+      <module name="Program-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.CFC_classWork.Linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.CFC_classWork.Linkedlist.linkedlist" />
+      <module name="Program-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.CFC_classWork.Linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="WORKING_DIRECTORY" value="Z:\Coding\Program-Codes" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\jbr" />
+      <module name="Program-Codes" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.linkedlist" />
+      <item itemvalue="Application.Q5_numOfDigit" />
+      <item itemvalue="Application.Q1_Vertical_Wave" />
+      <item itemvalue="Application.Reverse_Linkedlist" />
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="Application.MyLinkedList" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyLinkedList" />
+        <item itemvalue="Application.Reverse_Linkedlist" />
+        <item itemvalue="Application.linkedlist" />
+        <item itemvalue="Application.Q1_Vertical_Wave" />
+        <item itemvalue="Application.Q5_numOfDigit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7160338e-8efe-408d-bc59-3c04cc1b36d7" name="Changes" comment="" />
+      <created>1627989513992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627989513992</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
